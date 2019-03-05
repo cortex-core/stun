@@ -26,3 +26,9 @@ node_modules
 *.swo
 doc
 luacov.*.out
+
+# DS_Store
+.DS_Store
+
+# idea
+.idea
