@@ -5,7 +5,7 @@ exports.createServer = function (config) {
     return new Server(config);
 };
 
-exports.createClient = function () {
+exports.createClient = function (address) {
     var Client = require('./lib/client');
-    return new Client();
+    return new Client(address);
 };
